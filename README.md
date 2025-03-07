@@ -36,10 +36,10 @@ O projeto visa estimular a **inovação** e o **aprendizado prático** dos aluno
 ---
 ## Equipe
 - Integrantes:
-  - **[Caio Amaral de Pieri]**
-  - **[Cauã Alonso Martos ]**
-  - **[Douglas Gomes de Campos]**
-  - **[Leonardo Gonçalves Jorge]**
-  - **[Igor Fernando Casita Ferreira da Silva]**
+  - **Caio Amaral de Pieri**
+  - **Cauã Alonso Martos **
+  - **Douglas Gomes de Campos**
+  - **Leonardo Gonçalves Jorge**
+  - **Igor Fernando Casita Ferreira da Silva**
 
 
