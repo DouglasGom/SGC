@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Sistema de Controle de Acesso por Catraca - ETEC  de Taboão da Serra
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
+Este projeto tem como objetivo desenvolver um **sistema de controle de acesso por catraca** para a **ETEC  de Taboão da Serra**, garantindo um ambiente mais seguro e organizado. A solução será projetada para atender às necessidades da escola, permitindo o gerenciamento eficiente da entrada e saída de alunos, professores e funcionários.
 
-## Available Scripts
+O projeto visa estimular a **inovação** e o **aprendizado prático** dos alunos, promovendo a **colaboração em equipe** e a **aplicação de conhecimentos técnicos** na criação de um sistema funcional e seguro.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Objetivos Específicos
+- Desenvolver habilidades técnicas em **programação e desenvolvimento de sistemas**;
+- Proporcionar **aprendizado prático** por meio de um projeto real;
+- Estimular o **trabalho em equipe** e a **resolução de problemas**;
+- Criar um sistema **seguro e eficiente** para o controle de acesso;
+- Integrar **tecnologia e segurança** para melhorar a gestão escolar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades do Sistema
+1. **Autenticação Segura** - Controle de acesso por meio de **RFID (cartão estudantil)** ou **QR Code**;
+2. **Registro de Entradas e Saídas** - Registro automático dos horários de entrada e saída de cada usuário;
+3. **Diferentes Perfis de Acesso** - Permissões distintas para **alunos, professores e funcionários**;
+4. **Interface Intuitiva** - Painel administrativo para gestão dos acessos e relatórios;
+5. **Banco de Dados Seguro** - Armazenamento das informações de acesso de forma criptografada;
+6. **Notificações em Tempo Real** - Avisos automáticos para a administração da escola em caso de acesso não autorizado.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias Utilizadas
+- **Frontend:** React.js para o painel de controle
+- **Backend:** Node.js 
+- **Banco de Dados:** MySQL
+- **Autenticação:** RFID e QR Code
+- **Hospedagem:** Banco de dados local
 
-### `npm run build`
+---
+## Equipe
+- Integrantes:
+  - **[Caio Amaral de Pieri]**
+  - **[Cauã Alonso Martos ]**
+  - **[Douglas Gomes de Campos]**
+  - **[Leonardo Gonçalves Jorge]**
+  - **[Igor Fernando Casita Ferreira da Silva]**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
