@@ -17,7 +17,7 @@ const Monitoramento = () => {
         <div>
           <div>
             <p className={styles.date}>10/03/2025 - 10:59:48</p>
-            <p className={styles.name}>Fulano Oliveira</p>
+            <a href="/login" style={{textDecoration: 'none'}}><p className={styles.name}>Fulano Oliveira</p></a>
             <p>Área: Portaria Principal</p>
             <p>Dispositivo: Catraca Esquerda (iDBlock)</p>
             <p className={styles.accessRequired}>
@@ -43,7 +43,7 @@ const Monitoramento = () => {
         <tbody>
           <tr>
             <td>18/05/2024 11:24:32</td>
-            <td>Fulano Oliveira</td>
+           <td>Fulano Oliveira</td>
             <td>Portaria Principal</td>
             <td>Catraca Esquerda (iDBlock)</td>
             <td className={styles.accessRequired}>Acesso requerido

@@ -33,11 +33,11 @@
 }
 
 .list li a:hover {
-    color: #016FFF;
+    color: #B70808;
 }
 
 .active {
-    background-color: #016FFF;
+    background-color: #B70808;
     color: white !important;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .activeGear {
-    background-color: #016FFF;
+    background-color: #B70808;
     color: white !important;
     border-radius: 100%;
     display: flex;
