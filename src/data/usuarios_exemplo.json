@@ -900,5 +900,72 @@
       "Observação": "Laudantium amet dignissimos quas eaque aspernatur ipsum.",
       "Sincronizado": "Não"
     }
+  ],
+
+  "dispositivos": [
+    {
+      "id": 1,
+      "nome": "Catraca Principal",
+      "modelo": "Henry Lumen",
+      "endereço": "192.168.1.100",
+      "porta": 80,
+      "usuario": "admin",
+      "senha": "senha123",
+      "foto": "https://e7.pngegg.com/pngimages/106/238/png-clipart-turnstile-access-control-technology-business-technology-electronics-pedestrian.png"
+    },
+    {
+      "id": 2,
+      "nome": "Catraca Lateral",
+      "modelo": "Control iD iDBlock",
+      "endereço": "192.168.1.101",
+      "porta": 80,
+      "usuario": "operador",
+      "senha": "abc456",
+      "foto": "https://e7.pngegg.com/pngimages/106/238/png-clipart-turnstile-access-control-technology-business-technology-electronics-pedestrian.png"
+    },
+    {
+      "id": 3,
+      "nome": "Catraca Refeitório",
+      "modelo": "Gerb Box",
+      "endereço": "192.168.1.102",
+      "porta": 8080,
+      "usuario": "monitor",
+      "senha": "789xyz",
+      "foto": "https://e7.pngegg.com/pngimages/106/238/png-clipart-turnstile-access-control-technology-business-technology-electronics-pedestrian.png"
+    },
+    {
+      "id": 4,
+      "nome": "Catraca Acesso Norte",
+      "modelo": "RW Tech Slim",
+      "endereço": "192.168.1.103",
+      "porta": 80,
+      "usuario": "supervisor",
+      "senha": "securepass",
+      "foto": "https://e7.pngegg.com/pngimages/106/238/png-clipart-turnstile-access-control-technology-business-technology-electronics-pedestrian.png"
+    },
+    {
+      "id": 5,
+      "nome": "Catraca Acesso Sul",
+      "modelo": "Perto Px",
+      "endereço": "192.168.1.104",
+      "porta": 8080,
+      "usuario": "visitante",
+      "senha": "guest123",
+      "foto": "https://e7.pngegg.com/pngimages/106/238/png-clipart-turnstile-access-control-technology-business-technology-electronics-pedestrian.png"
+    }
+  ],
+
+  "dispositivosStatus": [
+    {
+      "id": 1,
+      "nome":"Catraca Principal",
+      "status": "Conectado com sucesso"
+    },
+    {
+      "id": 2,
+      "nome":"Catraca Acesso Norte",
+      "status": "Erro ao conectar"
+    }
+
   ]
 }

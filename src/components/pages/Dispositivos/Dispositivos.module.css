@@ -1,52 +1,93 @@
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--red)
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--red);
+  margin-bottom: 20px; 
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 20px; 
 }
 
-.cards{
-    display: flex;
-    background-color: var(--white);
-    padding: 5em;
-    align-items: center;
+.cards {
+  display: flex;
+  flex-wrap: wrap; 
+  background-color: var(--white);
+  padding: 20px; 
+  justify-content: flex-start;
+  gap: 20px; 
+  width: 90%; 
+  max-width: 1200px; 
 }
 
-.cardContainer{
-    background-color: rgb(246, 245, 245);
-    margin-right: 2em;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
+.cardContainer {
+  background-color: rgb(246, 245, 245);
+  padding: 15px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; 
+  width: calc(
+    33.33% - 20px
+  );
+  min-width: 200px; 
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.iconButton{
-    color: var(--red);
-    height: 30px;
-    padding: .5em;
-    border: none;
-    background-color: var(--white);
-    cursor: pointer;
+.cardContainer img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; 
 }
 
-.cardTitle{
-    color: var(--red);
+.iconButton {
+  color: var(--red);
+  height: auto;
+  padding: 10px 15px;
+  background-color: var(--white);
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.cardModel{
-    font-size: .8em;
+.icon {
+  font-size: 1.2em;
 }
 
-.cardArea{
-    font-size: .7em;
+.cardTitle {
+  color: var(--red);
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.cardModel {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.cardArea {
+  font-size: 0.8em;
+  color: #777;
+  text-align: center;
+}
+
+.cardContainer p {
+  font-size: 0.85em;
+  margin-top: 5px;
+  text-align: center;
 }
