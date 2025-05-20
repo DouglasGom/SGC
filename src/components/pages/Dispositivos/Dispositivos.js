@@ -75,10 +75,10 @@ function Dispositivos() {
       setShowForm(false);
       setStatusDispositivos((prevStatus) => ({
         ...prevStatus,
-        [novoDispositivo.id]: "Disponível", // Ou o status inicial que você deseja exibir
+        [novoDispositivo.id]: "Disponível",
       }));
 
-      window.location.reload(); // Recarrega a página após adicionar o dispositivo
+      window.location.reload();
     } catch (error) {
       setError(error.message);
     }
@@ -117,80 +117,83 @@ function Dispositivos() {
       </div>
 
       {showForm && (
-        <div className={styles.formContainer}>
-          <h2>Adicionar Novo Dispositivo</h2>
-          <form onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="nome">Nome:</label>
-              <input
-                type="text"
-                id="nome"
-                name="nome"
-                value={newDeviceData.nome}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="modelo">Modelo:</label>
-              <input
-                type="text"
-                id="modelo"
-                name="modelo"
-                value={newDeviceData.modelo}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="endereco">Endereço:</label>
-              <input
-                type="text"
-                id="endereco"
-                name="endereco"
-                value={newDeviceData.endereco}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="porta">Porta:</label>
-              <input
-                type="number"
-                id="porta"
-                name="porta"
-                value={newDeviceData.porta}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="usuario">Usuário:</label>
-              <input
-                type="text"
-                id="usuario"
-                name="usuario"
-                value={newDeviceData.usuario}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="senha">Senha:</label>
-              <input
-                type="password"
-                id="senha"
-                name="senha"
-                value={newDeviceData.senha}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <button type="submit">Adicionar Dispositivo</button>
-            <button type="button" onClick={() => setShowForm(false)}>Cancelar</button>
-          </form>
+        <div className={styles.overlay}>
+          <div className={styles.formContainer}>
+            <h2>Adicionar Novo Dispositivo</h2>
+            <form onSubmit={handleSubmit}>
+              <div>
+                <label htmlFor="nome">Nome:</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  value={newDeviceData.nome}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="modelo">Modelo:</label>
+                <input
+                  type="text"
+                  id="modelo"
+                  name="modelo"
+                  value={newDeviceData.modelo}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="endereco">Endereço:</label>
+                <input
+                  type="text"
+                  id="endereco"
+                  name="endereco"
+                  value={newDeviceData.endereco}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="porta">Porta:</label>
+                <input
+                  type="number"
+                  id="porta"
+                  name="porta"
+                  value={newDeviceData.porta}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="usuario">Usuário:</label>
+                <input
+                  type="text"
+                  id="usuario"
+                  name="usuario"
+                  value={newDeviceData.usuario}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="senha">Senha:</label>
+                <input
+                  type="password"
+                  id="senha"
+                  name="senha"
+                  value={newDeviceData.senha}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <button type="submit">Adicionar Dispositivo</button>
+              <button type="button" onClick={() => setShowForm(false)}>Cancelar</button>
+            </form>
+          </div>
         </div>
       )}
+
     </div>
   );
 }
