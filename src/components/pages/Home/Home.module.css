@@ -7,10 +7,14 @@
     --green: #008001;
     --light-green: #A4C284;
     --extra-light-green: #F5F5C7;
-    --red: #B70808;
+    --red: #970404;
     --light-red: #CA4C4C;
     --extra-light-red: #EFA5A5;
   }
+
+body{
+  background-color: var(--white);
+}
 
 .titleContainer{
     display: flex;

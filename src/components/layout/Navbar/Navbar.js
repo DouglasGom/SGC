@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Container from "../Container/Container";
 import styles from "./Navbar.module.css";
@@ -6,8 +7,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import navLinks, { settingsLink } from "./NavLinks.js";
 
 function Navbar() {
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        navRef.current?.classList.add(styles.scrolled);
+      } else {
+        navRef.current?.classList.remove(styles.scrolled);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.navbar} ref={navRef}>
       <Container>
         <NavLink to="/">
           <img src={logo} alt="Logo" />

@@ -2,7 +2,6 @@ import { faPerson, faWifi, faBuilding, faGear } from "@fortawesome/free-solid-sv
 
 const navLinks = [
   { to: "/", label: "Monitoramento", icon: faWifi },
-  { to: "/pessoas", label: "Pessoas", icon: faPerson },
   { to: "/departamentos", label: "Departamentos", icon: faBuilding },
   { to: "/dispositivos", label: "Dispositivos", icon: faBuilding },
 ];
