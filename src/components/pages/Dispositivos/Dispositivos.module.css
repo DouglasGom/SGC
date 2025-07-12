@@ -91,3 +91,70 @@
   margin-top: 5px;
   text-align: center;
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.formContainer {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 1001;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+
+.formContainer h2 {
+  margin-top: 0;
+  text-align: center;
+  color: var(--red);
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formContainer label {
+  font-weight: bold;
+  margin-bottom: 5px; 
+}
+
+.formContainer input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.formContainer button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; 
+}
+
+.formContainer button[type="submit"] {
+  background-color: var(--red);
+  color: white;
+}
+
+.formContainer button[type="button"] {
+  background-color: #ccc;
+}
+
